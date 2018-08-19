@@ -1,0 +1,80 @@
+{
+
+    // "runner.languageMap": {"ahk": "\"C:/Program Files/AutoHotkey/AutoHotkeyU64.exe\""},
+    // "runner.extensionMap": {"ahk": "\"C:/Program Files/AutoHotkey/AutoHotkeyU64.exe\""},
+
+    "code-runner.executorMap": {
+        "ahk": "\"C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe\""
+    },
+
+    //"code-runner.defaultLanguage": "autohotkey",
+    "code-runner.executorMapByFileExtension": {
+        "ahk": "\"C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe\""
+    },
+
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+
+        {
+            "text": "Sending Message",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "Decoding Message",
+            "color": "#000",
+            "isWholeLine": true,
+        },
+        {
+            "text": "ChannelMonitor",
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ... 
+        }
+    ],
+    //"todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+    "todohighlight.defaultStyle": {
+        "color": "red",
+        "backgroundColor": "#ffab00",
+        "overviewRulerColor": "#ffab00",
+        "cursor": "pointer",
+        "border": "1px solid #eee",
+        "borderRadius": "2px",
+        "isWholeLine": true,
+        //other styling properties goes here ... 
+    },
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.log"
+    ],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "editor.renderControlCharacters": true
+}
+
