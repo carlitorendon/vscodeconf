@@ -98,5 +98,17 @@
     {
         "key": "ctrl+y",
         "command": "editor.action.deleteLines"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "shift+alt+9",
+        "command": "-workbench.action.moveEditorToLastGroup"
+    },
+    {
+        "key": "shift+alt+9",
+        "command": "code-runner.run"
     }
 ]
