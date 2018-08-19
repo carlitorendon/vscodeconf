@@ -110,5 +110,21 @@
     {
         "key": "shift+alt+9",
         "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "-code-runner.stop"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "code-runner.stop"
+    },
+    {
+        "key": "shift+escape",
+        "command": "workbench.action.closePanel"
     }
 ]
