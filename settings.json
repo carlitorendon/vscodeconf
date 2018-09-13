@@ -75,6 +75,8 @@
     ],
     "todohighlight.maxFilesForSearch": 5120,
     "todohighlight.toggleURI": false,
-    "editor.renderControlCharacters": true
+    "editor.renderControlCharacters": true,
+    "editor.largeFileOptimizations": false,
+    "workbench.activityBar.visible": false
 }
 
