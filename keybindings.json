@@ -146,5 +146,49 @@
     {
         "key": "ctrl+shift+o",
         "command": "workbench.action.files.openFile"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "-workbench.action.replaceInFiles"
+    },
+    {
+        "key": "shift+alt+u",
+        "command": "-java.projectConfiguration.update",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+u",
+        "command": "textmarker.toggleHighlight"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "-bcjti.selectLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "expandLineSelection"
     }
 ]
